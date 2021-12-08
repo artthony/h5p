@@ -1,0 +1,13 @@
+html {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    padding: 0em 3em 1em 3em;
+    color: #4E514F;
+}
