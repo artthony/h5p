@@ -91,3 +91,11 @@ img.h5p-dialogcards-image {
   width: 30%;
   height: auto;
 }
+
+div.h5p-dialogcards-card-text-inner {
+  text-align: left;
+}
+
+div.h5p-table {
+  text-align: left;
+}

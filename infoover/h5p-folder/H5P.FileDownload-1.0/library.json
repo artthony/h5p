@@ -1,0 +1,23 @@
+{
+    "title": "File Download",
+    "machineName": "H5P.FileDownload",
+    "majorVersion": 1,
+    "minorVersion": 0,
+    "patchVersion": 7,
+    "runnable": 1,
+    "coreApi": {
+        "majorVersion": 1,
+        "minorVersion": 0
+    },
+    "author": "Anthony MR",
+    "preloadedJs": [
+        {
+            "path": "h5p-filedownload.js"
+        }
+    ],
+    "preloadedCss": [
+        {
+            "path": "h5p-filedownload.css"
+        }
+    ]
+}

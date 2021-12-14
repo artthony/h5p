@@ -1,0 +1,34 @@
+.h5p-filedownload {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 1%;
+}
+
+.h5p-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+
+.h5p-button-wrapper:hover, .h5p-button-wrapper:focus {
+    background-color: #f3f3f3;
+    cursor: pointer;
+}
+
+.h5p-file-button {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+
+.h5p-down-arrow {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}

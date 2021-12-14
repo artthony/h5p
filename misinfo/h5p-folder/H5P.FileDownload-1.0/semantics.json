@@ -1,0 +1,13 @@
+[
+    {
+        "name": "uploadedFile",
+        "type": "file",
+        "label": "Upload a file:",
+        "optional": true
+    },
+    {
+        "name": "fileName",
+        "type": "text",
+        "label": "Name the file:"
+    }
+]

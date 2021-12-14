@@ -4,10 +4,10 @@
   "description": "Content holder displaying content in a column.",
   "contentType": "instructional",
   "license": "MIT",
-  "author": "Joubel",
+  "author": "Joubel / Anthony Maocheia-Ricci",
   "majorVersion": 1,
   "minorVersion": 0,
-  "patchVersion": 2,
+  "patchVersion": 4,
   "runnable": 1,
   "fullscreen": 0,
   "embedTypes": [
