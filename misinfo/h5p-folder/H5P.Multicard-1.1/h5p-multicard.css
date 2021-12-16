@@ -15,6 +15,10 @@
     border-color: #04C56B;
 }
 
+.h5p-card-cards-orange {
+    border-color: #CA866D;
+}
+
 .h5p-card-title {
     padding: 1em;
     background-color: #04C56B;
@@ -26,10 +30,20 @@
     border-color: #04C56B;
 }
 
+.h5p-card-title-orange {
+    background-color: #CA866D;
+    border-color: #CA866D;
+}
+
 .h5p-card-title:hover, .h5p-card-title:focus {
     background-color: #47d191;
     border-color: #47d191;
     cursor: pointer;
+}
+
+.h5p-card-title-orange:hover, .h5p-card-title-orange:focus {
+    background-color: #C79B84;
+    border-color: #C79B84;
 }
 
 .h5p-open-card {
@@ -38,7 +52,6 @@
 
 .h5p-open-card:hover, .h5p-open-card:focus {
     background-color: white;
-    border-color: #47d191;
     cursor: default;
 }
 

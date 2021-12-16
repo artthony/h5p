@@ -1,9 +1,11 @@
 {
     "title": "Multicard",
     "machineName": "H5P.Multicard",
+    "summary": "A group of tabs",
+    "licence": "CC BY-NC",
     "majorVersion": 1,
     "minorVersion": 1,
-    "patchVersion": 15,
+    "patchVersion": 16,
     "runnable": 1,
     "coreApi": {
         "majorVersion": 1,

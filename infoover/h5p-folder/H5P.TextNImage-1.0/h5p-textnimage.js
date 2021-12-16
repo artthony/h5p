@@ -18,12 +18,10 @@ H5P.TextNImage = (function ($) {
 
         function toggleOverlay() {
             if (overlayOn) {
-                // console.log('remove text');
                 overlayOn = false;
                 $text.css('display', 'none');
                 self.trigger('loaded');
             } else {
-                // console.log('add text back')
                 overlayOn = true;
                 $text.css('display', 'block');
                 self.trigger('loaded');

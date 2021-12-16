@@ -1,11 +1,11 @@
 {
-    "title": "Multicard",
-    "machineName": "H5P.Multicard",
-    "summary": "A group of tabs",
+    "title": "Citations",
+    "machineName": "H5P.Citations",
+    "summary": "Citations formatter",
     "licence": "CC BY-NC",
     "majorVersion": 1,
-    "minorVersion": 1,
-    "patchVersion": 16,
+    "minorVersion": 0,
+    "patchVersion": 0,
     "runnable": 1,
     "coreApi": {
         "majorVersion": 1,
@@ -14,7 +14,7 @@
     "author": "Anthony MR",
     "preloadedJs": [
         {
-            "path": "h5p-multicard.js"
+            "path": "h5p-citations.js"
         }
     ],
     "preloadedDependencies": [
@@ -26,7 +26,7 @@
     ],
     "preloadedCss": [
         {
-            "path": "h5p-multicard.css"
+            "path": "h5p-citations.css"
         }
     ]
 }

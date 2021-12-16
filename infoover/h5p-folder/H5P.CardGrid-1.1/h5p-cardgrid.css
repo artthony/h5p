@@ -14,12 +14,12 @@
     margin: 1%;
     border: none; 
     border-radius: 7px;
-    background-color: lightgray;
+    background-color: #EDDFC9;
     cursor: pointer;
 }
 
 .h5p-cardgrid-card:hover, .h5p-cardgrid-card:focus {
-    background-color: #B3B3B3;
+    background-color: #F0ECE6;
 }
 
 .h5p-cardgrid-card h3 {

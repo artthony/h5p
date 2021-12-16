@@ -53,6 +53,8 @@ H5P.Multicard = (function ($) {
             }).append($(self.descrp));
         }
 
+        self.params.colourSwap && self.$descrp.addClass("h5p-card-cards-orange")
+
         $container.addClass('h5p-multicard').append(self.$titles).append(self.$descrp);
     };
 
@@ -77,6 +79,8 @@ H5P.Multicard = (function ($) {
                 'click': toggleSwap
             }
         });
+
+        self.params.colourSwap && $title.addClass('h5p-card-title-orange')
 
         // make content
         var $content = $('<div>', {

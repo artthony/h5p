@@ -40,6 +40,7 @@
             for (var j = 0; j < self.params.cards.length; ++j) {
                 cards[j] = document.createElement('button');
                 cards[j].classList.add('h5p-cardgrid-card');
+                // cards[j].ariaLabel = "Expanding card, open me for more information."
 
                 let front = document.createElement('h3');
                 front.innerHTML = self.params.cards[j].title;
@@ -62,8 +63,9 @@
                 cards[j].onclick = swap;
             }
 
-            self.$elements = $('<div>', {
-                'class': 'h5p-cardgrid'
+            self.$elements = $('<nav>', {
+                'class': 'h5p-cardgrid',
+                'aria-label': 'Card Grid, open each button for more information.'
             }).append($(cards));
         }
 

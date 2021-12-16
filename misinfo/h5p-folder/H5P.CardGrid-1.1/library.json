@@ -1,9 +1,10 @@
 {
     "title": "Card Grid",
     "machineName": "H5P.CardGrid",
+    "licence": "CC BY-NC",
     "majorVersion": 1,
     "minorVersion": 1,
-    "patchVersion": 6,
+    "patchVersion": 7,
     "runnable": 1,
     "coreApi": {
         "majorVersion": 1,

@@ -1,9 +1,11 @@
 {
     "title": "Text and Image",
+    "description": "A module that allows adjacent text and image with options for placement and size",
     "machineName": "H5P.TextNImage",
+    "licence": "CC BY-NC",
     "majorVersion": 1,
     "minorVersion": 0,
-    "patchVersion": 17,
+    "patchVersion": 18,
     "runnable": 1,
     "coreApi": {
         "majorVersion": 1,
